@@ -1,11 +1,17 @@
-
+import Review from "./Review"
 function App() {
   
 
   return (
-    <>
-     hi
-    </>
+    <main>
+    <div className="container">
+      <div className="title">
+        <h2>نظرات همکاران</h2>
+      </div>
+      <Review />
+    </div>
+    </main>
+   
   )
 }
 
