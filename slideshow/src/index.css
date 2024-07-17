@@ -1,8 +1,45 @@
+@font-face {
+  font-family: "B-Nazanin";
+  src: local("B-Nazanin"),url(./fonts/B-Nazanin.ttf) format("truetype");
+}
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 body{
+  direction: rtl;
+ font-family:"B-Nazanin";
+ background: #faeded;
+}
+.container{
+ 
+width: 30%;
+margin:300px auto 300px auto;
+text-align: center;
+align-items: center;
   
+}
+.title{
+  border-bottom: 3px solid red;
+  margin-bottom: 30px;
+}
+.review{
+  width: 100%px;
+  height: 200px;
+  background: #fff;
+  box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 10px;
+
+}
+
+
+.review-img img{
+  width: 50px;
+  height: 50px;
+}
+.review-button button{
+  outline: none;
+  border: none;
+  background: #fff;
 }
