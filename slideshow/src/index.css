@@ -24,12 +24,16 @@ align-items: center;
   border-bottom: 3px solid red;
   margin-bottom: 30px;
 }
+.info{
+  color: rgb(110, 107, 107);
+}
 .review{
   width: 100%px;
   height: 200px;
   background: #fff;
   box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 10px;
+
 
 }
 
@@ -38,8 +42,29 @@ align-items: center;
   width: 50px;
   height: 50px;
 }
+.all-btn{
+  position: relative;
+  display: flex;
+  justify-content:center;
+  
+  padding: 10px;
+ 
+}
+.review-button{
+  position: absolute;
+  
+  right: 10px;
+ 
+}
+.random-btn{
+  background: rgb(224, 127, 127);
+  border: none;
+  padding: 5px;
+  color: rgb(171, 34, 34);
+}
 .review-button button{
   outline: none;
   border: none;
   background: #fff;
+  color: rgb(171, 34, 34);
 }

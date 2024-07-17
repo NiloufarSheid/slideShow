@@ -10,12 +10,15 @@ const Review = () => {
         <h4 className='author'>نیلوفر شید</h4>
         <p className='job'>برنامه نویس</p>
         <p className='info'>ذتاذزریذزتنیذزنتذستیزذتیسذزتایذزیذزتیذزیذزیازذیتزذرتایرزیتاذزاتیذ زاتیرثزغلیثزلغثلزثلذزذلثغزلعغثلزعثلذ</p>
+        <div className='all-btn'>
         <div className="review-button">
             <button><FaChevronRight/></button>
             <button><FaChevronLeft/></button>
-            
-        
-        <button className='random-btn'>random</button>
+            </div>
+            <div>
+
+        <button className='random-btn'>تصادفی</button>
+        </div>
         </div>
     </div>
   );
