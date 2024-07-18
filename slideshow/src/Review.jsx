@@ -32,7 +32,13 @@ return number
   })
  }
 
- 
+ const randomPerson=(randomNumber)=>{
+  randomNumber=Math.floor(Math.random() * persons.length)
+  if(randomNumber===index){
+    randomNumber = index + 1
+  }
+  setIndex(checkNumber(randomNumber))
+ }
  
   return (
     <div className='review'>
@@ -50,7 +56,7 @@ return number
             </div>
             <div>
 
-        <button className='random-btn'>تصادفی</button>
+        <button className='random-btn'  onClick={randomPerson}>تصادفی</button>
         </div>
         </div>
     </div>
