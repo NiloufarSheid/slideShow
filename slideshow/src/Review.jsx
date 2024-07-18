@@ -5,6 +5,15 @@ import persons from './data';
 const Review = () => {
  const [index,setIndex]=useState(0);
  const{name,job,image,text}=persons[index];
+ const nextSlide=()=>{
+  setIndex(index+1)
+
+ }
+ const preSlide=()=>{
+  setIndex(index-1)
+ }
+
+ 
  
   return (
     <div className='review'>
@@ -17,8 +26,8 @@ const Review = () => {
         <p className='info'> {text}</p>
         <div className='all-btn'>
         <div className="review-button">
-            <button><FaChevronRight/></button>
-            <button><FaChevronLeft/></button>
+            <button onClick={nextSlide}><FaChevronRight/></button>
+            <button onClick={preSlide}><FaChevronLeft/></button>
             </div>
             <div>
 

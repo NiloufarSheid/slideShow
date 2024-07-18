@@ -25,7 +25,8 @@ align-items: center;
   margin-bottom: 30px;
 }
 .info{
- 
+  width: auto;
+  overflow: hidden;
   color: rgb(110, 107, 107);
 }
 .review{

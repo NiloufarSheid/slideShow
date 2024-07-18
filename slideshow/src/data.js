@@ -2,22 +2,22 @@ const persons=[
    { id:1,
     name:"نیلوفر",
     job:"طراح وب",
-    Image:"profileone.png",
-    text:"اذیلذزنتیذنتزلیلزتنیذزنتیلزنیذزتیذ"
+    image:"./public/profileone.png",
+    text:"لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است،د،  ."
 
     },
     {
         id:2,
         name:"احسان",
         job:" برنامه نویس",
-        Image:"profiletwo.png",
+        image:"./public/profiletwo.png",
         text:"اذیلذزنتیذنتزلیلزتنیذزنتیلزنیذزتیذ" 
     },
     {
         id:3,
         name:"تینا",
         job:"  معلم",
-        Image:"profilethree.png",
+        image:"./public/profilethree.jpg",
         text:"اذیلذزنتیذنتزلیلزتنیذزنتیلزنیذزتیذ"  
     }
 ]
