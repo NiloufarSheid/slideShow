@@ -50,13 +50,13 @@ align-items: center;
   position: relative;
   display: flex;
   justify-content:center;
+ 
   
   padding: 10px;
  
 }
 .review-button{
   position: absolute;
-  
   right: 10px;
  
 }
@@ -65,10 +65,12 @@ align-items: center;
   border: none;
   padding: 5px;
   color: rgb(171, 34, 34);
+  cursor: pointer;
 }
 .review-button button{
   outline: none;
   border: none;
   background: #fff;
   color: rgb(171, 34, 34);
+  cursor: pointer;
 }

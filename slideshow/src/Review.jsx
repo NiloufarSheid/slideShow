@@ -5,12 +5,31 @@ import persons from './data';
 const Review = () => {
  const [index,setIndex]=useState(0);
  const{name,job,image,text}=persons[index];
- const nextSlide=()=>{
-  setIndex(index+1)
 
+ const checkNumber=(number)=>{
+if(number>persons.length -1){
+  return 0
+}
+if(number<0){
+  return persons.length -1
+}
+return number
  }
+
+
+ const nextSlide=()=>{
+  setIndex((index)=>{
+    let newIndex=index+1
+    return checkNumber(newIndex)
+  })
+ }
+
+
  const preSlide=()=>{
-  setIndex(index-1)
+  setIndex((index)=>{
+    let newIndex=index-1
+    return checkNumber(newIndex)
+  })
  }
 
  
@@ -21,7 +40,7 @@ const Review = () => {
             <img src={image} />
         </div>
       
-        <h4 className='author'> {name}</h4>
+        <h4 className='author'>{name}</h4>
         <p className='job'> {job}</p>
         <p className='info'> {text}</p>
         <div className='all-btn'>
