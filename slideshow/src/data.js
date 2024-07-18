@@ -1,4 +1,4 @@
-const person=[
+const persons=[
    { id:1,
     name:"نیلوفر",
     job:"طراح وب",
@@ -21,4 +21,4 @@ const person=[
         text:"اذیلذزنتیذنتزلیلزتنیذزنتیلزنیذزتیذ"  
     }
 ]
-export default person
+export default persons

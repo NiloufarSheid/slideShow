@@ -1,7 +1,4 @@
-@font-face {
-  font-family: "B-Nazanin";
-  src: local("B-Nazanin"),url(./fonts/B-Nazanin.ttf) format("truetype");
-}
+
 
 *{
   margin: 0;
@@ -20,11 +17,15 @@ text-align: center;
 align-items: center;
   
 }
+.job{
+  color: rgb(171, 34, 34);
+}
 .title{
-  border-bottom: 3px solid red;
+  border-bottom: 3px solid rgb(171, 34, 34);;
   margin-bottom: 30px;
 }
 .info{
+ 
   color: rgb(110, 107, 107);
 }
 .review{
@@ -41,6 +42,8 @@ align-items: center;
 .review-img img{
   width: 50px;
   height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
 }
 .all-btn{
   position: relative;
